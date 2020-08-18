@@ -1,1 +1,1 @@
-# szkoladotneta-kurs
+# Szkoladotneta-kurs
