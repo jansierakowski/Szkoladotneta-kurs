@@ -15,7 +15,7 @@ namespace W2L8_exercises
             //ExercisesSeven();
             //ExercisesEight();
             //ExercisesNine();
-            ExercisesTen();
+            //ExercisesTen();
         }
 
 
