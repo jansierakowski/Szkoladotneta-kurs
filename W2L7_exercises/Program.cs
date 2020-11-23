@@ -19,7 +19,7 @@ namespace W2L7_exercises
             //ExercisesTen();
             //ExercisesEleven(); 
             //ExercisesTwelve();
-            ExercisesThirteen();
+            //ExercisesThirteen();
 
 
 
