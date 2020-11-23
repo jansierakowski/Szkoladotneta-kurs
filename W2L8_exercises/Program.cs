@@ -216,7 +216,6 @@ namespace W2L8_exercises
 
                 if (number1Modulo == 0 && number2Modulo == 0 && number1Modulo == number2Modulo)
                 {
-                    wynik = number1 * number2 / i;
                     Console.WriteLine(i);
                     return;
                 }
