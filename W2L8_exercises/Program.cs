@@ -6,20 +6,20 @@ namespace W2L8_exercises
     {
         static void Main(string[] args)
         {
-            //ExercisesOne();
-            //ExercisesTwo();
-            //ExercisesThree();
-            //ExercisesFour();
-            //ExercisesFive();
-            //ExercisesSix();
-            //ExercisesSeven();
-            //ExercisesEight();
-            //ExercisesNine();
-            //ExercisesTen();
+            //ExerciseOne();
+            //ExerciseTwo();
+            //ExerciseThree();
+            //ExerciseFour();
+            //ExerciseFive();
+            //ExerciseSix();
+            //ExerciseSeven();
+            //ExerciseEight();
+            //ExerciseNine();
+            //ExerciseTen();
         }
 
 
-        private static void ExercisesOne()
+        private static void ExerciseOne()
         {
             int primeCount = 0;
 
@@ -41,7 +41,7 @@ namespace W2L8_exercises
             }
         }
 
-        private static void ExercisesTwo()
+        private static void ExerciseTwo()
         {
             int n = 0;
             do
@@ -57,7 +57,7 @@ namespace W2L8_exercises
 
         }
 
-        private static void ExercisesThree()
+        private static void ExerciseThree()
         {
             long a = 0, b = 1, t = 1;
             int n = 50;
@@ -72,7 +72,7 @@ namespace W2L8_exercises
 
         }
 
-        private static void ExercisesFour()
+        private static void ExerciseFour()
         {
             Console.WriteLine("Enter number:");
             string numberString = Console.ReadLine();
@@ -93,7 +93,7 @@ namespace W2L8_exercises
 
         }
 
-        private static void ExercisesFive()
+        private static void ExerciseFive()
         {
             for (int i = 1; i <= 20; i++)
             {
@@ -101,7 +101,7 @@ namespace W2L8_exercises
             }
         }
 
-        private static void ExercisesSix()
+        private static void ExerciseSix()
         {
             double actualValue = 0;
             double divider;
@@ -126,7 +126,7 @@ namespace W2L8_exercises
             }
         }
 
-        private static void ExercisesSeven()
+        private static void ExerciseSeven()
         {
             Console.Write("Enter the maximum number of middle line: ");
             int maxnumber = Convert.ToInt32(Console.ReadLine());
@@ -157,7 +157,7 @@ namespace W2L8_exercises
             Console.WriteLine();
         }
 
-        private static void ExercisesEight()
+        private static void ExerciseEight()
         {
             Console.WriteLine("Enter text: ");
             string textString = Console.ReadLine();
@@ -169,7 +169,7 @@ namespace W2L8_exercises
             }
         }
 
-        private static void ExercisesNine()
+        private static void ExerciseNine()
         {
             Console.Write("Enter number: ");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -200,14 +200,14 @@ namespace W2L8_exercises
 
         }
 
-        private static void ExercisesTen()
+        private static void ExerciseTen()
         {
             Console.Write("Enter number 1: ");
             int number1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter number 2: ");
             int number2 = Convert.ToInt32(Console.ReadLine());
 
-            int number1Modulo, number2Modulo, nww = 0, wynik;
+            int number1Modulo, number2Modulo;
 
             for (int i = 2; i <= 9; i++)
             {
