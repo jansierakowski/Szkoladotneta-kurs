@@ -35,18 +35,22 @@ namespace CarTryApplication
                     case '1':
                         string carBrand;
                         var keyInfo = itemService.AddNewItemView(actionService,out carBrand);
+                        Console.WriteLine();
                         var id = itemService.AddNewItem(keyInfo.KeyChar, carBrand);
                         break;
                     case '2':
                         var removeId = itemService.RemoveItemView();
+                        Console.WriteLine();
                         itemService.RemoveItem(removeId);
                         break;
                     case '3':
                         var detailId = itemService.ItemDetailSelectionView();
+                        Console.WriteLine();
                         itemService.ItemDetailView(detailId);
                         break;
                     case '4':
                         var brandToShow = itemService.CarBrandTypeSelectionView();
+                        Console.WriteLine();
                         itemService.CarBrandsByTypeView(brandToShow);
                         break;
                     default:

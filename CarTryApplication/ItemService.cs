@@ -111,6 +111,7 @@ namespace CarTryApplication
             Console.WriteLine($"Car id: {productToShow.Id} ");
             Console.WriteLine($"Car brand: {productToShow.CarBrand} ");
             Console.WriteLine($"Car model: {productToShow.CarModel} ");
+            Console.WriteLine();
         }
 
         public int ItemDetailSelectionView()
