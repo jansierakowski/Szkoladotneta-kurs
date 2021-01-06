@@ -6,9 +6,4 @@
     <AssemblyName>CarTryApplication</AssemblyName>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CarTry.App\CarTry.App.csproj" />
-    <ProjectReference Include="..\CarTry.Domain\CarTry.Domain.csproj" />
-  </ItemGroup>
-
 </Project>
