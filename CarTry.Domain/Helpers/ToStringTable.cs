@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace CarTryApplication
+namespace CarTryApplication.Helpers
 {
     public static class TableParser
     {
